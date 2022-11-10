@@ -1,0 +1,183 @@
+.tituloExperiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black-color);
+    
+}
+
+
+
+.experiencia {
+  margin-bottom: 20px;
+
+}
+
+
+
+.experiencia h1 {
+    color: var(--white-color);
+
+}
+
+
+
+
+
+
+
+.containerExperiencia{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: var(--black-color);
+   width: 100%;
+   
+    
+
+}
+
+.containerEmpresas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 1px solid var(--gray-color);
+   width: 250px;
+   
+   
+}
+
+.fechas {
+   width: 80px;
+    text-align: center;
+}
+
+
+
+.empresas {
+     width: 120px;
+     text-align: center;
+  
+
+}
+
+
+
+.fechas h3{
+    font-size: 0.8rem;
+    color:  var(--gray-color);
+}
+
+
+.empresas h2{
+    font-size:0.8rem ;
+    color:  var(--white-color);
+    
+}
+
+.empresas h3{
+    font-size: 0.8rem;
+    color:  var(--gray-color);
+}
+
+.containerExperiencia1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--black-color);
+    width: 100%;
+
+}
+
+
+.containerEmpresas1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+   width: 250px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px) {
+
+
+    
+.containerEmpresas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid var(--gray-color);
+   width: 700px;
+   
+   
+}
+
+.fechas {
+     
+   width: 150px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+.empresas {
+     
+     width: 170px;
+     text-align: center;
+  
+
+}
+
+
+
+.fechas h3{
+    font-size: 1.3rem;
+    color:  var(--gray-color);
+}
+
+
+.empresas h2{
+    font-size:1.3rem ;
+    color:  var(--white-color);
+    
+}
+
+.empresas h3{
+    font-size: 1.3rem;
+    color:  var(--gray-color);
+}
+
+
+
+
+.containerEmpresas1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+   width: 700px;
+   
+
+}
+
+
+
+
+
+
+
+}

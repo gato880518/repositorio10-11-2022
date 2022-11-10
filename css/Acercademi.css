@@ -1,0 +1,30 @@
+
+.containerAcercaDeMi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color : var(--black-color);
+    width: 100%;
+     min-height: 200px;
+}
+
+
+.descripcion-containerAcercaDeMi{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 55%;
+    max-height: 500px;
+    
+}
+
+.descripcion-containerAcercaDeMi h1{
+    color: var(--white-color);
+}
+
+
+.descripcion-containerAcercaDeMi p {
+    color: var(--gray-color);
+}
